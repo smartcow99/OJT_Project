@@ -16,3 +16,5 @@
 - transCost (long, 거래 금액)
 - card (Card, ManyToOne 관계)
 - 두 엔티티 간의 관계를 설정하고 및 연관된 엔티티를 fetch 설정.
+
+ㅁㄴㅇ
