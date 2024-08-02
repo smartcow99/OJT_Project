@@ -19,7 +19,7 @@
 
 ## 문제 3: SQL -> JPQL 쿼리 변경하기
 ### 데이터 베이스 환경
-![image](https://github.com/user-attachments/assets/2f8ed1a4-d976-4dfa-802d-c63fac5e8cc8)
+![image](https://github.com/user-attachments/assets/3991de01-04c2-498d-ad19-ba573593b20e)
 ![image](https://github.com/user-attachments/assets/1fb5455d-20a6-4dfc-a12e-e35fe8fe1b41)
 
 ### SQL 쿼리 
