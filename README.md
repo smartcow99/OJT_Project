@@ -17,7 +17,7 @@
 - card (Card, ManyToOne 관계)
 - 두 엔티티 간의 관계를 설정하고 및 연관된 엔티티를 fetch 설정.
 
-## 문제 2: SQL -> JPQL 쿼리 변경하기
+## 🖋 문제 2: SQL -> JPQL 쿼리 변경하기
 ### 데이터 베이스 환경
 ![image](https://github.com/user-attachments/assets/3991de01-04c2-498d-ad19-ba573593b20e)
 ![image](https://github.com/user-attachments/assets/1fb5455d-20a6-4dfc-a12e-e35fe8fe1b41)
@@ -27,7 +27,7 @@
 SELECT * from emp e , dept d where ename = 'SMITH' AND e.deptno = d.deptno;
 ```
 
-## 🖋 문제 2 : select문이 호출되는 문장의 번호 선택
+## 🖋 문제 3 : select문이 호출되는 문장의 번호 선택
 ### step02Test() 호출 시 실제로 데이터베이스에 select문이 호출되는 문장의 번호를 모두 선택하세요.
 단, Emp 클래스의 멤버 변수 DEPTNO는 아래와 같이 설정되어 있습니다.
 
