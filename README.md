@@ -17,4 +17,14 @@
 - card (Card, ManyToOne 관계)
 - 두 엔티티 간의 관계를 설정하고 및 연관된 엔티티를 fetch 설정.
 
-ㅁㄴㅇ
+## 문제 3: SQL -> JPQL 쿼리 변경하기
+### 데이터 베이스 환경
+![image](https://github.com/user-attachments/assets/2f8ed1a4-d976-4dfa-802d-c63fac5e8cc8)
+![image](https://github.com/user-attachments/assets/1fb5455d-20a6-4dfc-a12e-e35fe8fe1b41)
+
+### SQL 쿼리 
+```
+SELECT * from emp e , dept d where ename = 'SMITH' AND e.deptno = d.deptno;
+```
+
+
