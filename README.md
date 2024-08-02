@@ -2,7 +2,7 @@
 
 
 ## Team
-|<img src="https://avatars.githubusercontent.com/u/65991884?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/107031994?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/86452494?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/78792358?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/74589010?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/175282913?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127727927?v=4" width="150" height="150"/>|
+|<img src="https://avatars.githubusercontent.com/u/65991884?v=4" width="200" height="150"/>|<img src="https://avatars.githubusercontent.com/u/107031994?v=4" width="200" height="150"/>|<img src="https://avatars.githubusercontent.com/u/86452494?v=4" width="200" height="150"/>|<img src="https://avatars.githubusercontent.com/u/78792358?v=4" width="200" height="150"/>|<img src="https://avatars.githubusercontent.com/u/74589010?v=4" width="200" height="150"/>|<img src="https://avatars.githubusercontent.com/u/175282913?v=4" width="200" height="150"/>|<img src="https://avatars.githubusercontent.com/u/127727927?v=4" width="200" height="150"/>|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |[@RyuChaeHyun](https://github.com/RyuChaeHyun)|Jeongju Park<br/>[@gorapang](https://github.com/gorapang)|[@seungji2001](https://github.com/seungji2001)|HyeonWoo Park<br/>[@smartcow99](https://github.com/smartcow99)|강유완<br/>[@yuwankang](https://github.com/yuwankang)|이정욱<br/>[@jeonguk0201](https://github.com/jeonguk0201)|부준혁<br/>[@BooJunhyuk](https://github.com/BooJunhyuk)|
  	
