@@ -17,7 +17,7 @@
 - card (Card, ManyToOne 관계)
 - 두 엔티티 간의 관계를 설정하고 및 연관된 엔티티를 fetch 설정.
 
-## 문제 3: SQL -> JPQL 쿼리 변경하기
+## 문제 2: SQL -> JPQL 쿼리 변경하기
 ### 데이터 베이스 환경
 ![image](https://github.com/user-attachments/assets/3991de01-04c2-498d-ad19-ba573593b20e)
 ![image](https://github.com/user-attachments/assets/1fb5455d-20a6-4dfc-a12e-e35fe8fe1b41)
@@ -27,7 +27,7 @@
 SELECT * from emp e , dept d where ename = 'SMITH' AND e.deptno = d.deptno;
 ```
 
-## 문제 2
+## 문제 2 : select문이 호출되는 문장의 번호 선택
 ### step02Test() 호출 시 실제로 데이터베이스에 select문이 호출되는 문장의 번호를 모두 선택하세요.
 단, Emp 클래스의 멤버 변수 DEPTNO는 아래와 같이 설정되어 있습니다.
 
@@ -83,7 +83,7 @@ SELECT * from emp e , dept d where ename = 'SMITH' AND e.deptno = d.deptno;
 
 
 #### 정답: 1, 3, 7
-### 해설
+## 해설
 해설은 주석에 설명되어 있습니다.
 ```java
 @Test
@@ -133,7 +133,7 @@ public void step02Test() {
 
 
 
-## 문제 3
+## 문제 3 : JPQL 쿼리 조회 횟수 
 ### step02Test() 호출 시 Dept 엔티티를 조회하는 JPQL 쿼리가 몇 번 호출되는지 횟수를 작성하시오.
 ```java
 @Test
@@ -195,7 +195,9 @@ public void step02Test() {
 
 3. 쿼리 호출 (3): 동일한 dname 값을 가진 Dept를 다시 조회하고, 위와 동일하게 1차 캐시에서 값을 가져옵니다.
 
-이 코드는 JPQL 쿼리 방식으로 Dept를 조회하고 있습니다. 1차 캐시는 동일한 식별자(식별자 기반 조회)로 조회할 때만 유효하므로, 식별자가 아닌 다른 속성으로 조회할 경우 JPQL 쿼리가 데이터베이스에 직접 실행되기 때문에 3번의 쿼리 호출이 일어납니다. 
+이 코드는 JPQL 쿼리 방식으로 Dept를 조회하고 있습니다. **1차 캐시는 동일한 식별자(식별자 기반 조회)로 조회할 때만 유효**하므로, 식별자가 아닌 다른 속성으로 조회할 경우 JPQL 쿼리가 데이터베이스에 직접 실행되기 때문에 **3번의 쿼리 호출** 이 일어납니다. 
+
+![image](https://github.com/user-attachments/assets/bd2e972c-ce22-4f31-9e02-cae3ca111780)
 
 (1) 에서 Dept가 호출되었으니 1차캐시에 저장되어 (2) , (3) 에선 1차 캐시를 조회하기 때문에 한번만 호출될거라고 생각할 수 있지만 1차 캐시를 사용하는데에는 식별자(id) 로 조회하는 경우에만 해당된다는 특징이 있습니다. 하지만 영속성 컨텍스트는 내부적으로 식별자로 Entity를 관리하기 때문에 영속상태인 객체는 식별자가 반드시 있어야 합니다.
 
